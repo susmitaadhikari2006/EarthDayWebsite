@@ -1,0 +1,156 @@
+.navbar{
+    background: rgba(35,54,111,.95);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+.navbar_container{
+    display: flex;
+    height: 80px;
+    z-index:1;
+    width:100%;
+    max-width: 1300px;
+    margin:0 auto;
+    padding: 0 50px;
+
+}
+.logoPIC{
+    width: 10rem;
+    float: left;
+    margin-right: 10px;
+}
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+
+}
+.navbar__item{
+    height: 80px;
+
+}
+.navbar_links{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 100%;
+    transition: all .3s ease;
+}
+
+.navbar_links:hover{
+    color: #499557;
+    transition: all .4s ease;
+
+}
+@media screen and (max-width:1250px){
+    .navbar_container{
+        display: flex;
+        justify-content: space-between;
+        height: 150px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1100px;
+        padding: 0;
+        align-items: center;
+    }
+    .navbar_menu{
+        display: grid;
+        margin: 0;
+        position:absolute;
+        top: -1000px;
+        opacity: 1;
+        transition: all .3s ease;
+        z-index: -1;
+        float: right;
+
+
+    }
+    .navbar_menu.active{
+        background: rgba(35,54,111,.95);
+        top:100%;
+        opacity: 1;
+        transition: all .5s ease;
+        z-index: 99;
+        height: 100vh;
+        font: 1.6rem;
+        width: 25rem;
+        float: right;
+    }
+    .navbar__item{
+        width: 100%;
+        align-items: center;
+
+    }
+    .navbar_links{
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        display: table;
+        align-items: center;
+
+
+    }
+    .navbar__btn{
+        padding-bottom: 2rem;
+
+
+    }
+
+    /* handling classes and formatting JS inclusions */
+    #mobile-menu{
+        position: absolute;
+        top: 20%;
+        right: 5%;
+        transform: translate(5%, 20%);
+        align-items: center;
+
+    }
+    .navbar_toggle .bar{
+        width: 30px;
+        height:3px;
+        margin: 5px auto;
+        transition: all .3s ease-in-out;
+        display: block;
+        cursor: pointer;
+        background: #fff;
+        align-items: center;
+
+    }
+    #mobile-menu.is-active .bar:nth-child(2){
+        opacity: 0;
+
+    }
+    #mobile-menu.is-active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+
+    }
+    #mobile-menu.is-active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+        
+
+    }
+    .navText{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 2rem;
+    }
+    
+
+}
+.navText{
+    color: #fff;
+}
+
+/* Color scheme, Blue, Green, and white
+blue=rgba(35,54,111,.95);
+Green = #499557
+white */
