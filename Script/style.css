@@ -6,7 +6,9 @@ Green = #499557
 white 
 
 */
-
+.current{
+    text-decoration:overline underline;
+}
 .navbar{
     background: rgba(35,54,111,.95);
     height: 5rem;
@@ -89,7 +91,7 @@ white
         float: left;
         margin-right: 10px;
         top: .2rem;
-
+navbar_links
     }
     .navbar_menu.active{
         background: rgba(35,54,111,.95);
@@ -194,6 +196,9 @@ white
     display: flex;
     justify-content: center;
 
+}
+.footerCopyright{
+    color: white;
 }
 
 .footer_link--wrapper{
