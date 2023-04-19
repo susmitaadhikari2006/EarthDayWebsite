@@ -261,3 +261,29 @@ navbar_links
     }
     
 }
+
+/* Index page css */
+.CarbonFootprintExplained{
+    margin-top: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    transition: .3s ease-in-out;
+}
+.CarbonFootprintExplained:hover{
+    box-shadow: 2px -5px 62px -11px rgba(0,0,0,0.75);
+}
+.indexTextContainer{
+    display: grid;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: .5rem;
+    box-sizing: border-box;
+    border: .1rem;
+    border-style: ridge;
+    box-shadow: 2px -5px 62px -11px rgba(0,0,0,0.75);
+    padding: 1rem;
+    background-color: #499557;
+    color: #fff;
+
+}
