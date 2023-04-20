@@ -365,3 +365,10 @@ navbar_links
             margin:1rem;
         }
     }
+    #darkmode{
+        padding: 10px;
+        background-color: #499557;
+        color: #fff;
+        border-radius: 1rem;
+
+    }
