@@ -71,3 +71,10 @@ let currentDate = day +'-' + month + '-'+ year;
 console.log(currentDate);
 
 footerText.innerHTML = "&copy; " + year + " Sustainable Earth";
+
+//changing the color of the <a> tags
+
+const el = document.getElementsByClassName('cardText');
+el.style.color = "#fff";
+
+

@@ -287,3 +287,87 @@ navbar_links
     color: #fff;
 
 }
+
+/* style for the house page  */
+.imgHouse{
+    display: grid;
+    width: 100%;
+    height: 25rem;
+    margin-top: .5rem;
+    border-radius: 2rem;
+}
+/* the cards */
+.card {
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 1rem;
+    border-color: rgb(33, 36, 35);
+    width: 300px;
+    height: 400px;
+    color: #fff;
+    background: rgba(35,54,111,.95);
+    transition: 1s ease-in-out;
+    margin:.35rem;
+    }
+    
+    .card p{
+        color: #fff;
+        margin: 1rem;
+    }
+    .card_container :nth-child(even){
+        background: #499557;
+
+    }
+    .nocolor{
+        background-color: transparent;
+    }
+
+    .card i{
+        font-size: 10rem;
+    }
+    .card:hover i{
+       font-size: xx-small;
+    }
+    .card:hover{
+        transition: 1s ease-in-out;
+        scale: 1.03;
+    }
+    .card_container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 1fr 1fr  1fr 1fr;
+        transition: 1s;
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+    
+    
+    @media screen and (max-width:1300px){
+        .card_container{
+            grid-template-columns: 1fr 1fr;
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+        .card{
+            justify-content: center;
+            align-items: center;
+            margin:1rem;
+        }
+    }
+    @media screen and (max-width:750px){
+        .card_container{
+            grid-template-columns:1fr;
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+        .card{
+            justify-content: center;
+            align-items: center;
+            margin:1rem;
+        }
+    }
