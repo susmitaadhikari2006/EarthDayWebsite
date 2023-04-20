@@ -319,9 +319,6 @@ navbar_links
         background: #499557;
 
     }
-    .nocolor{
-        background-color: transparent;
-    }
 
     .card:hover{
         transition: 1s ease-in-out;
@@ -331,7 +328,7 @@ navbar_links
         display: grid;
         justify-content: center;
         align-items: center;
-        grid-template-columns: 1fr 1fr  1fr 1fr;
+        grid-template-columns: 1fr 1fr  1fr;
         transition: 1s;
         margin: auto;
         width: 50%;
@@ -371,4 +368,13 @@ navbar_links
         color: #fff;
         border-radius: 1rem;
 
+    }
+    .heaterPic{
+        width: 9rem;
+    }
+    .unplug{
+        width: 9rem;
+    }
+    .Energy{
+        width: 8.5rem;
     }
