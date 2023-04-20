@@ -1,6 +1,6 @@
 const menu = document.querySelector('#mobile-menu');
 const menuLinks = document.querySelector('.navbar_menu');
-const navLogo = document.querySelector('#navbar__logo');
+const navLogo = document.getElementById('navbar_logo');
 
 // Display Mobile Menu
 const mobileMenu = () => {
@@ -54,3 +54,20 @@ const hideMobileMenu = () => {
 
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
+
+//section!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//displaying the year in the footer
+
+let footerText = document.getElementById('footerCopyright');
+
+const date = new Date();
+
+let day = date.getDate();
+let month = date.getMonth() + 1;
+let year = date.getFullYear();
+
+// This arrangement can be altered based on how we want the date's format to appear.
+let currentDate = day +'-' + month + '-'+ year;
+console.log(currentDate);
+
+footerText.innerHTML = "&copy; " + year + " Sustainable Earth";
