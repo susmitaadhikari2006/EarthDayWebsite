@@ -304,7 +304,7 @@ navbar_links
     border-radius: 1rem;
     border-color: rgb(33, 36, 35);
     width: 300px;
-    height: 400px;
+    height: 350px;
     color: #fff;
     background: rgba(35,54,111,.95);
     transition: 1s ease-in-out;
@@ -323,12 +323,6 @@ navbar_links
         background-color: transparent;
     }
 
-    .card i{
-        font-size: 10rem;
-    }
-    .card:hover i{
-       font-size: xx-small;
-    }
     .card:hover{
         transition: 1s ease-in-out;
         scale: 1.03;

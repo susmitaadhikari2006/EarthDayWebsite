@@ -78,3 +78,10 @@ const el = document.getElementsByClassName('cardText');
 el.style.color = "#fff";
 
 
+const darkmodeButton = document.getElementById('darkmode');
+let el_body = document.getElementsByTagName('body');
+
+function darkModeOn() {
+  document.body.style.backgroundColor = "#404347";
+}
+
