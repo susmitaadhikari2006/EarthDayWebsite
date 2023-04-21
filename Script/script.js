@@ -75,8 +75,6 @@ footerText.innerHTML = "&copy; " + year + " Sustainable Earth";
 //changing the color of the <a> tags
 
 const el = document.getElementsByClassName('cardText');
-el.style.color = "#fff";
-
 
 function darkModeOn() {
   document.body.style.backgroundColor = "#323436";

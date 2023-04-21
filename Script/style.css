@@ -457,4 +457,20 @@ navbar_links
             width: 15rem;
 
         }
+        .CarbonFootprintExplained{
+            width: 30rem;
+        }
+    }
+    li{
+        margin: 1rem;
+    }
+    .cardIMGcity{
+        width: 8rem;
+    }
+    .button{
+        padding: 10px;
+        background-color: #499557;
+        color: #fff;
+        border-radius: 1rem;
+
     }
