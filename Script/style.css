@@ -348,6 +348,11 @@ navbar_links
             align-items: center;
             margin:1rem;
         }
+        .schoolCardsContainer{
+            display: grid;
+            grid-template-columns:1fr;
+
+        }
     }
     @media screen and (max-width:750px){
         .card_container{
@@ -401,4 +406,55 @@ navbar_links
         color: #fff;
         box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.75);
         height: 10rem;
+    }
+    .schoolCardsContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+    }
+    .newcard{
+        margin: .5rem;
+        background-color:#499557;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.75);
+        border-radius: 5px;
+        height: 15rem;
+
+    }
+    .newcard p{
+        color: #fff;
+        font-size: 1.15rem;
+        margin: .5rem;
+        text-align: center;
+    }
+    .schoolCardsContainer :nth-child(3){
+        background-color: rgba(35,54,111,.95);
+    }
+    .schoolCardsContainer :nth-child(4){
+        background-color: rgba(35,54,111,.95);
+    }
+    .cardIMGSchool{
+        width: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+    @media screen and (max-width:1300px){
+        .schoolCardsContainer{
+            display: grid;
+            grid-template-columns:1fr;
+
+        }
+        .textcontainer{
+            transition: .3s ease-in-out;
+            font-size: large;
+        }
+        .SchoolIMG{
+            transition: .5s ease-in-out;
+            width: 15rem;
+
+        }
     }
