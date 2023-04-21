@@ -83,3 +83,15 @@ function darkModeOn() {
 function LightModeOn() {
   document.body.style.backgroundColor = "#fff";
 }
+
+function sendEmail() {
+    Email.send({
+      SecureToken : "7889F9BF1F1858D87A00E61AAE46387773E2",
+      To : 'ps24sadhikari@efcts.us',
+      From : "susmitaadhikari2006@gmail.com",
+      Subject : "This is the subject",
+      Body : "And this is the body"
+  }).then(
+    message => alert("Message sent successfully")
+  );
+}
