@@ -378,3 +378,27 @@ navbar_links
     .Energy{
         width: 8.5rem;
     }
+    .SchoolIMG{
+        align-items: center;
+        justify-content: center;
+        margin: 1rem;
+        width: 35rem;
+        box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.75);
+    }
+    .headerContainerSchool{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .textcontainer{
+        border: .1px;
+        border-style: ridge;
+        text-align: center;
+        padding: 10px;
+        background-color: #499557;
+        margin: 1rem;
+        font-size: x-large;
+        color: #fff;
+        box-shadow: 0px 0px 41px 0px rgba(0,0,0,0.75);
+        height: 10rem;
+    }
