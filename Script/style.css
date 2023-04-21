@@ -477,3 +477,7 @@ navbar_links
         font-size: 1.3rem;
         text-align: center;
     }
+    #imagecontainer{
+        max-width: 10rem;
+        width: 9rem;
+    }
