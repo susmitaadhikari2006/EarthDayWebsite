@@ -472,5 +472,8 @@ navbar_links
         background-color: #499557;
         color: #fff;
         border-radius: 1rem;
-
+    }
+    .TextKitchen{
+        font-size: 1.3rem;
+        text-align: center;
     }
